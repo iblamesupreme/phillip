@@ -1,11 +1,9 @@
-import Image from "next/image";
+import Nav from "./components/nav/nav";
 
 export default function Home() {
   return (
     <>
-      <p className="text-9xl font-sans">
-        Whereas disregard and contempt for human rights have resulted
-      </p>
+      <Nav />
     </>
   );
 }

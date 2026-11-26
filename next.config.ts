@@ -18,7 +18,10 @@ const nextConfig: NextConfig = {
 };
 
 module.exports = {
-  allowedDevOrigins: ["192.168.0.102"],
+  allowedDevOrigins: ["192.168.0.102", "172.20.10.6"],
+  images: {
+    remotePatterns: [new URL("https://placehold.co/**")],
+  },
 };
 
 export default nextConfig;
