@@ -1,0 +1,12 @@
+.surface {
+  background-color: transparent;
+  animation: fadeIn linear both;
+  animation-timeline: scroll(root);
+  animation-range: 0px 92px;
+}
+
+@keyframes fadeIn {
+  to {
+    background-color: var(--surface);
+  }
+}
