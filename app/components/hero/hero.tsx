@@ -6,6 +6,7 @@ export default function Hero() {
     <main className="w-full h-dvh font-sans flex flex-col items-center justify-center px-8">
       <div className="w-full max-w-7xl flex flex-col justify-center">
         <div className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
+          {/* TODO: Add eyebrow heading */}
           <h1>Steuerberatung</h1>
           <h1>Buchhaltung</h1>
           <h1>Personalverrechnung</h1>
