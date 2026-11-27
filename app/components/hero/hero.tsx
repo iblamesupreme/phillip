@@ -33,14 +33,24 @@ export default function Hero() {
         </div>
       </div>
       <a
-        className="absolute bottom-24 after:w-16 after:h-24 -after:top-2"
+        className="absolute bottom-24 after:w-16 after:h-24 after:-top-9"
         href="#1"
         id="clickable-area"
       >
-        <div
-          id="scroll-indicator"
-          className="w-5 h-5 border-l-2 border-b-2 -rotate-45 border-white block"
-        ></div>
+        <div id="scroll-indicator">
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            viewBox="0 0 120 120"
+            enable-background="new 0 0 120 120"
+            className="fill-foreground -rotate-180 w-5 h-5"
+          >
+            <polygon points="0.233,106.52 60,3 119.768,106.52 " />
+          </svg>
+        </div>
       </a>
     </main>
   );

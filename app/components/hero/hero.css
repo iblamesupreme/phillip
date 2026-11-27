@@ -7,21 +7,34 @@ main {
 }
 
 #scroll-indicator {
-  animation: 2s indicateScroll infinite forwards linear;
+  animation: indicateScroll 2s infinite forwards linear;
 }
 
 @keyframes indicateScroll {
   0% {
-    opacity: 0;
-    transform: translateY(-2em) translateX(2em);
+    transform: rotate3d(0, 1, 0, 0deg) translateY(0);
   }
   50% {
-    opacity: 1;
-    transform: translateY(0) translateY(0);
+    transform: rotate3d(0, 1, 0, 90deg) translateY(0.25rem);
   }
   100% {
-    opacity: 0;
-    transform: translateY(2em) translateX(-2em);
+    transform: rotate3d(0, 1, 0, 0deg) translateY(0);
+  }
+}
+
+#scroll-indicator > svg {
+  animation: shadow 2s infinite forwards linear;
+}
+
+@keyframes shadow {
+  0% {
+    fill: var(--color-white);
+  }
+  50% {
+    fill: var(--color-gray-400);
+  }
+  100% {
+    fill: var(--color-white);
   }
 }
 
