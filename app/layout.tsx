@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { DM_Sans, DM_Mono } from "next/font/google";
 import { Providers } from "./providers";
 import "./globals.css";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
+  subsets: ["latin"],
+});
+
+const dmMono = DM_Mono({
+  weight: "500",
+  variable: "--font-dm-mono",
   subsets: ["latin"],
 });
 
@@ -17,7 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="de"
-      className={`${dmSans.variable} h-full antialiased`}
+      className={`${dmSans.variable} ${dmMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="flex flex-col">

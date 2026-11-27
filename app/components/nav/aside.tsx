@@ -48,8 +48,8 @@ export default function Aside() {
         <Card.Header>
           <Card.Description className="flex flex-col items-end gap-8 me-3 text-right text-2xl">
             <Link href="/">Start</Link>
-            <Link href="/">Services</Link>
             <Link href="/">Unternehmen</Link>
+            <Link href="/">Services</Link>
             <Link href="/">Blog</Link>
             <Link href="/">Kontakt</Link>
           </Card.Description>

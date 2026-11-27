@@ -22,8 +22,8 @@ export default function Nav() {
           <span className="flex-1" />
           <div className="hidden md:flex gap-4">
             <Link href="/">Start</Link>
-            <Link href="/">Services</Link>
             <Link href="/">Unternehmen</Link>
+            <Link href="/">Services</Link>
             <Link href="/">Blog</Link>
             <Link href="/">Kontakt</Link>
           </div>
