@@ -4,9 +4,9 @@ import "./hero.css";
 
 export default function Hero() {
   return (
-    <main className="w-full h-dvh font-sans flex flex-col items-center justify-center px-8">
+    <main className="w-full h-dvh font-sans flex flex-col items-center justify-center px-8 mb-16">
       <div className="w-full max-w-7xl flex flex-col justify-center">
-        <span className="font-mono text-md sm:text-lg">
+        <span className="font-mono text-xs sm:text-lg">
           Rückruf innerhalb von 30 Minuten
         </span>
         <div className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold flex flex-col mb-4">
@@ -34,18 +34,12 @@ export default function Hero() {
       </div>
       <a
         className="absolute bottom-24 after:w-16 after:h-24 after:-top-9"
-        href="#1"
+        href="#company"
         id="clickable-area"
       >
         <div id="scroll-indicator">
           <svg
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            x="0px"
-            y="0px"
             viewBox="0 0 120 120"
-            enable-background="new 0 0 120 120"
             className="fill-foreground -rotate-180 w-5 h-5"
           >
             <polygon points="0.233,106.52 60,3 119.768,106.52 " />

@@ -21,8 +21,8 @@ export default function Nav() {
           <span className="font-bold text-lg sm:text-2xl">Lorem Ipsum</span>
           <span className="flex-1" />
           <div className="hidden md:flex gap-4">
-            <Link href="/">Start</Link>
-            <Link href="/">Unternehmen</Link>
+            <Link href="/#">Start</Link>
+            <Link href="/#company">Unternehmen</Link>
             <Link href="/">Services</Link>
             <Link href="/">Blog</Link>
             <Link href="/">Kontakt</Link>

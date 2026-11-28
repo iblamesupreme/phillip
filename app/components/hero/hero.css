@@ -7,7 +7,7 @@ main {
 }
 
 #scroll-indicator {
-  animation: indicateScroll 2s infinite forwards linear;
+  animation: indicateScroll 3s infinite forwards linear;
 }
 
 @keyframes indicateScroll {
@@ -23,7 +23,7 @@ main {
 }
 
 #scroll-indicator > svg {
-  animation: shadow 2s infinite forwards linear;
+  animation: shadow 3s infinite forwards linear;
 }
 
 @keyframes shadow {

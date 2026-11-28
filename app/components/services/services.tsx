@@ -4,7 +4,7 @@ import { CircleDollar, Book, Persons } from "@gravity-ui/icons";
 
 export default function Services() {
   return (
-    <div className="min-h-screen flex justify-center p-8" id="1">
+    <div className="flex justify-center px-8 py-16">
       <div className="max-w-7xl w-full">
         <h1 className="text-4xl font-bold mb-4">Unsere Services</h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 h-fit">
